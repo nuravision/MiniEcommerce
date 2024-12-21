@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    gap: 50px;
+}
+.homePage{
+    border: 1px solid black;
+    width: 400px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.basketPage{
+    border: 1px solid black;
+    width: 400px;
+}
+.favPage{
+    border: 1px solid black;
+    width: 400px;
+}
+.prodImg{
+    width: 40px;
+}
+.prodCard{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 15px;
+}
+.prodFav{
+    margin-left: 10px;
+    background-color: red;
+    padding: 2px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.prodBasket{
+    margin-left: 10px;
+    background-color: greenyellow;
+    padding: 2px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.prodImg{
+    width: 40px;
+}
